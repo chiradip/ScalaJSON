@@ -20,6 +20,6 @@ package object Dependencies {
   import Dependency._
  
   val scalaJSON = Seq(
-    jacksoncore, jacksondatabind, jacksonannotations, jacksonmodulescala, typesafeconfig, droolscore
+    jacksoncore, jacksondatabind, jacksonannotations, jacksonmodulescala, typesafeconfig
   )
 } 
