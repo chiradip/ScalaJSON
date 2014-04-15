@@ -78,7 +78,7 @@ trait JSONTemplate /*(sourceJson: String) extends Template*/ {
 }
 
 object Main extends App {
-  val json = """{ "Header" : { "agid" : "Girish-Splunk",
+  val json = """{ "Header" : { "agid" : "Somehting",
       "mid" : "sessionKey=2acc26fc4341cb46cf6e40c1da80f878",
       "ts" : 1359418502892
     },
@@ -106,9 +106,9 @@ object Main extends App {
                 "index" : "CPY001504653920",
                 "linecount" : "1",
                 "risk_rating" : "31",
-                "source" : "ips_sdee.log.209.198.155.zip:./ips_sdee.log.209.198.155.142",
+                "source" : "ips_sdee.log.xxx.xxx.xxx.zip:./ips_sdee.log.xxx.xxx.xxx.xxx",
                 "sourcetype" : "ips_sdee.log",
-                "splunk_server" : "gkasbeka-lnx"
+                "xxx_server" : "somehting-lnx"
               },
               { "_bkt" : "main~0~52303D33-A99E-4523-8309-192FA6F26E83",
                 "_cd" : "0:914727",
@@ -123,14 +123,14 @@ object Main extends App {
                 "index" : "CPY001504653920",
                 "linecount" : "2",
                 "risk_rating" : "31",
-                "source" : "ips_sdee.log.209.198.155.zip:./ips_sdee.log.209.198.155.142",
+                "source" : "ips_sdee.log.xxx.xxx.xxx.zip:./ips_sdee.log.xxx.xxx.xxx.xxx",
                 "sourcetype" : "ips_sdee.log",
                 "splunk_server" : "gkasbeka-lnx"
               }
             ]
         },
       "rawResultsfile" : "/opt/splunk/var/run/splunk/dispatch/scheduler__admin__search__RMD5e5f2153ac15c4ad1_at_1359418500_231/results.csv.gz",
-      "savedSearchLink" : "http://gkasbeka-lnx:8000/app/search/@go?sid=scheduler__admin__search__RMD5e5f2153ac15c4ad1_at_1359418500_231",
+      "savedSearchLink" : "http://something-lnx:8000/app/search/@go?sid=scheduler__admin__search__RMD5e5f2153ac15c4ad1_at_1359418500_231",
       "savedSearchName" : "risk31 more than 3",
       "searchTerms" : "host=\"NGDEV-IDS\" risk_rating=\"31\"",
       "splunkAlertReason" : "Saved Search [risk31 more than 3] number of events(2)"
