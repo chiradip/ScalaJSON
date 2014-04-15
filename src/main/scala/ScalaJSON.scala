@@ -140,7 +140,7 @@ object Main extends App {
 
 
 val jsontemplate = """
-"splunk" : {
+"tmpl" : {
     
     "agentId"             :   ${Header.agid},
     "msgId"               :   "Header-mid",
