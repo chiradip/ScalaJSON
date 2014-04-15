@@ -1,6 +1,6 @@
 /** High Performance message transformer 
  *  @Athor : Chiradip Mandal
- *  @Email : chmandal@ccisco.com
+ *  @Email : chiradip@chiradip.com
  */
 
 import scala.util.matching.Regex
